@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pommes"
+    tools:context=".KundenDaten">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/durumland_icon"/>
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Vor- und Nachname"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:background="#ff0000"/>
+        <EditText
+            android:layout_marginTop="3dp"
+            android:id="@+id/edit_nummer"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Handynummer"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:background="#ff0000"/>
+        <EditText
+            android:id="@+id/edit_strasse"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Straße + Hausnr."
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:background="#ff0000"/>
+        <EditText
+            android:id="@+id/edit_stadt_plz"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Plz + Stadt"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:background="#ff0000"/>
+        <EditText
+            android:id="@+id/edit_vermerk"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:gravity="left"
+            android:textColorHint="@android:color/secondary_text_light"
+            android:hint="Zusätzliche Bemerkung: "/>
+        <Button
+            android:id="@+id/btn_weiterkasse"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/btn_abschicken"
+            android:textColor="@color/white"
+            android:text="weiter"/>
+    </LinearLayout>
+</ScrollView>
